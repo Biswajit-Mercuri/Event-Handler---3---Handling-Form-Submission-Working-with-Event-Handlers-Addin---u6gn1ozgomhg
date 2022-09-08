@@ -5,7 +5,7 @@ const App = () => {
   const handleInput = (event) =>{
     // use console.log
     event.preventDefault()
-    console.log(`#${event.target.id} is ${event.target.value}`);
+    console.log(`Input in #${event.target.id} is ${event.target.value}`);
   }
 
   // do not change id of input elements
